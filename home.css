@@ -1,0 +1,35 @@
+.custom-hr {
+    border: none;
+    border-top: 7px solid #db3434;
+    color: #db3434;
+    background-color: transparent;
+    height: 0;
+    width: 1;
+    margin: 20px auto;
+  }
+
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.text-color{
+    color: aliceblue;
+ }
+
+ .row {
+  display: flex;
+  gap: 27px;
+}
