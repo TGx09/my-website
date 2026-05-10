@@ -16,21 +16,28 @@ body {
   text-align: center;
   width: 350px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border: 6px solid #333;
 }
 
 .profile-pic {
   width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin-bottom: 15px;
 }
 
 h1 {
-  color: #333;
+color: #333;
 }
 
 .bio {
   color: #666;
   margin-bottom: 20px;
+
+}
+
+h2 {
+  color: #333;
 }
 
 ul {
@@ -41,4 +48,5 @@ ul {
 li {
   margin: 10px 0;
   font-size: 18px;
+  color: #666;
 }
